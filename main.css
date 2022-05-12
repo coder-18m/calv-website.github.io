@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo img{
+  height: 90px;
+  padding: 2px;
+}
+nav{
+  background: #9DD2E4;
+}
+.sub-a{
+  text-decoration: none;
+}
+nav:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+nav ul{
+  float: right;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+}
+nav ul li{
+  float: left;
+  display: inline-block;
+  background: #9DD2E4;
+  margin: 0 5px;
+
+}
+nav ul li a{
+  color: black;
+  text-decoration: overline;
+
+  line-height: 70px;
+  font-size: 20px;
+  padding: 8px 15px;
+  transition: .4s;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  color: white;
+}
+
+nav ul ul{
+  transition: top .3s;
+  border-top: 3px solid white;
+  position: absolute;
+  top: 90px;
+  opacity: 0;
+  visibility: hidden;
+}
+nav ul li:hover > ul{
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  width: 150px;
+  float: none;
+  display: list-item;
+
+}
+nav ul ul ul li{
+  position: relative;
+  top: -70px;
+  left: 150px;
+}
+
+.submenu{
+  text-decoration: none;
+
+}
+.show, .bars, input{
+  display: none;
+}
+
+
+.box-h1{
+  float: left;
+
+  margin-top: 60px;
+  background: white;
+  opacity: 0.6;
+  padding:30px;
+
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  color: black;
+  animation: transitionIn 0.5s;
+  text-align: center;
+}
+
+@keyframes transitionIn {
+  from{
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to{
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+.box{
+  background-image: url(../img/placeholder2.jpg);
+  padding-bottom: 300px;
+  background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 830px) {
+  nav ul{
+    margin-right: 0px;
+    float: left;
+  }
+  nav ul li, nav ul ul li{
+    display: block;
+    width: 100%;
+  }
+  nav ul ul{
+    top 70px;
+    position: static;
+    border-top: none;
+    float: none;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+  }
+  nav ul ul ul li{
+    position: static;
+  }
+  nav ul ul a{
+    padding-left: 40px;
+  }
+  nav ul ul ul a{
+    padding-left: 80px;
+  }
+  .show{
+    text-decoration: overline;
+    display: block;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 70px;
+    cursor: pointer;
+  }
+  .bars{
+    padding-top: 10px;
+    height: 30px;
+    display: block;
+    color: white;
+    line-height: 70px;
+    float: right;
+    margin-right: 20px;
+
+  }
+  .show + a, ul{
+    display: none;
+  }
+  [id^=btn]:checked + ul{
+    display: block;
+  }
+
+
+
+
+
+
+
+}
+
+@media all and (max-width: 650px){
+  .box-h1{
+    font-size: 10px;
+    padding: 14px;
+  }
+
+
+}
+
+
+
+
+
+
+@media (min-width: 790px) {
+	.box{
+    padding-bottom: 500px;
+  }
+
+	}
