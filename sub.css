@@ -1,0 +1,23 @@
+.contact-h1{
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 12px;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+.contact-info{
+  margin-top: 16px;
+  padding: 4px;
+  margin-right: 10%;
+  margin-left: 10%;
+  width: 80%;
+  border: 2px solid black;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+
+}
