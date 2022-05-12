@@ -108,7 +108,7 @@ nav ul ul ul li{
   }
 }
 .box{
-  background-image: url('../Img/placeholder2.jpg');
+  background-image: url("https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
   padding-bottom: 300px;
   background-size: cover;
 
