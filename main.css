@@ -180,6 +180,7 @@ nav ul ul ul li{
   margin-right: 10%;
 }
 .about-call{
+
   margin-bottom: 20px;
   margin-top: 20px;
   text-align: center;
@@ -187,15 +188,36 @@ nav ul ul ul li{
     font-size: 20px;
     font-family: 'Barlow Condensed', sans-serif;
 }
-.about-ol{
+.about-ol, .contact-ol{
   margin-top: 16px;
   margin-bottom: 16px;
+}
+.contact-ol{
+  margin-left: 10%;
 }
 .about-ol li{
   margin-top: 8px;
   font-family: 'Barlow Condensed', sans-serif;
   list-style-type: circle;
   margin-left: 10%;
+}
+.contact-ol li{
+  margin-top: 8px;
+  font-family: 'Barlow Condensed', sans-serif;
+  list-style-type: decimal;
+
+}
+#pack-id{
+  margin-top: 20px;
+  display: none;
+}
+#hr-id{
+  margin-top: 30px;
+}
+.pack-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 @media all and (max-width: 830px) {
   nav ul{
@@ -261,6 +283,14 @@ nav ul ul ul li{
 
 
 }
+@media (max-width: 540px) {
+  .pack-container{
+    flex-direction: column;
+  }
+  #pack-id{
+    display: block;
+  }
+}
 
 @media all and (max-width: 650px){
   .box-h1{
@@ -278,9 +308,14 @@ nav ul ul ul li{
   }
 
 }
+#contact-id{
+  color: blue;
+}
 
-
-
+}
+.pack-item{
+  margin-bottom: 20px;
+}
 
 
 @media (min-width: 790px) {
@@ -290,7 +325,7 @@ nav ul ul ul li{
   .about-p{
     font-size: 20px;
   }
-  .about-ol li{
+  .about-ol li, .contact-ol li{
     font-size: 20px;
   }
   .about-header{
