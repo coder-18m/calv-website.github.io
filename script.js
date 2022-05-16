@@ -4,3 +4,12 @@ window.addEventListener('touchstart', function(event){
     box.style.display = 'none';
   }
 });
+
+let aboutLink = document.querySelector('#about-link');
+let aboutItem = document.querySelector('#aboutItem');
+
+aboutLink.addEventListener('click', navigateItem, false);
+
+function navigateItem(e){
+aboutItem.scrollIntoView({behavior: "smooth"});
+}

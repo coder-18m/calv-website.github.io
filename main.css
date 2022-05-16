@@ -6,6 +6,7 @@
 body{
   background-color: #E6E5E1;
 }
+
 .logo img{
   height: 90px;
   padding: 2px;
@@ -16,6 +17,7 @@ nav{
 }
 .sub-a{
   text-decoration: none;
+  font-size: 17px;
 }
 nav:after{
   content: '';
@@ -80,6 +82,7 @@ nav ul ul ul li{
 
 .submenu{
   text-decoration: none;
+  font-size: 17px;
 
 }
 .show, .bars, input{
@@ -141,9 +144,59 @@ nav ul ul ul li{
 
 /* #B78549;*/
 
+/* ABOUT CONTENT */
+.about-header{
+  font-size: 34px;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
 
+}
+.about-hr{
+    background-color: #9DD2E4;
+    height: 3px;
+    border: none;
+    width:40%;
+    margin:0 auto;
+}
+.about-hr-2{
+  background-color: #9DD2E4;
+  height: 3px;
+  border: none;
+  width:40%;
+  margin:0 auto;
 
+}
+.about-p{
 
+  font-family: 'Barlow Condensed', sans-serif;
+  margin-top: 16px;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.about-call{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.about-ol{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.about-ol li{
+  margin-top: 8px;
+  font-family: 'Barlow Condensed', sans-serif;
+  list-style-type: circle;
+  margin-left: 10%;
+}
 @media all and (max-width: 830px) {
   nav ul{
     margin-right: 0px;
@@ -198,7 +251,9 @@ nav ul ul ul li{
   [id^=btn]:checked + ul{
     display: block;
   }
-
+  .mobile-li{
+    font-size: 18px;
+  }
 
 
 
@@ -232,5 +287,28 @@ nav ul ul ul li{
 	.box{
     padding-bottom: 500px;
   }
+  .about-p{
+    font-size: 20px;
+  }
+  .about-ol li{
+    font-size: 20px;
+  }
+  .about-header{
+    margin-top: 38px;
+    margin-bottom: 28px;
+  }
+  .about-p{
+    margin-top: 30px;
+    }
+    .about-call{
+      margin-top: 38px;
+      margin-bottom: 28px;
+    }
+    .about-hr, .about-hr-2{
+      width: 26%;
+    }
+    .map-item-1 a, .map-item-2 a, .map-item-3 a, .map-item-4 a, .map-item-5 a, .map-item-6 a, .map-item-7 a  {
+      font-size: 20px;
+    }
 
-	}
+  }

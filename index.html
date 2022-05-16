@@ -4,19 +4,21 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="main.css">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/6c8e01facf.js" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/6c8e01facf.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
 
 
-    <title>CALV Home</title>
+  <title>CALV Home</title>
 </head>
 <!-- fonts-->
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&display=swap');
 </style>
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+</style>
 
 <body>
   <nav>
@@ -26,14 +28,7 @@
     <ul>
 
       <li>
-        <label for="btn-1" class="show">About +</label>
-        <a href="#">About</a>
-        <input type="checkbox" id="btn-1">
-        <ul class="ul-li-ul">
-          <li><a class="sub-a" href="#">Subpage</a></li>
-          <li><a class="sub-a" href="#">Subpage</a></li>
-          <li><a class="sub-a" href="#">Subpage</a></li>
-        </ul>
+        <a class="mobile-li" href="javascript:void(0)" id="about-link">About</a>
       </li>
 
 
@@ -42,14 +37,15 @@
         <a href="#">Situation</a>
         <input type="checkbox" id="btn-2">
         <ul class="ul-li-ul">
-          <li><a class="sub-a" href="#">Subpage</a></li>
+          <li><a class="sub-a" href="development-sum.html">Development Sum.</a></li>
           <li>
             <label for="btn-3" class="show">More +</label>
-            <a class="sub-a" href="#">Subpage<i class="fa-solid fa-plus"></i></a>
+            <a class="sub-a" href="#">Maps<i class="fa-solid fa-plus"></i></a>
             <input type="checkbox" id="btn-3">
             <ul>
-              <li><a class="submenu" href="#">submenu-1</a></li>
-              <li><a class="submenu" href="#">submenu-2</a></li>
+              <li><a class="submenu" href="develop-map.html">Developments</a></li>
+              <li><a class="submenu" href="transport-map.html">Transportation</a></li>
+              <li><a class="submenu" href="schools-map.html">Schools</a></li>
             </ul>
           </li>
         </ul>
@@ -59,9 +55,10 @@
         <a href="#">Get Involved</a>
         <input type="checkbox" id="btn-4">
         <ul class="ul-li-ul">
-          <li><a class="sub-a" href="#">Subpage</a></li>
-          <li><a class="sub-a" href="#">Subpage</a></li>
-          <li><a class="sub-a" href="#">Subpage</a></li>
+          <li><a class="sub-a" href="contact.html">Contact</a></li>
+          <li><a class="sub-a" href="sample-letter.html">Sample Letter</a></li>
+          <li><a class="sub-a" href="edit-letter.html">Editor Letter</a></li>
+          <li><a class="sub-a" href="fire.html">Fire Dept. Points</a></li>
         </ul>
       </li>
 
@@ -70,30 +67,69 @@
         <a href="#">Resources</a>
         <input type="checkbox" id="btn-5">
         <ul class="ul-li-ul">
-          <li><a class="sub-a" href="#">Subpage</a></li>
-          <li><a class="sub-a" href="#">Subpage</a></li>
-          <li><a class="sub-a" href="#">Subpage</a></li>
+          <li><a class="sub-a" href="sources/CALV Brochure.pdf">CALV Brochure</a></li>
+          <li><a class="sub-a" href="sources/Comprehensive Plan.pdf">Plan</a></li>
+          <li><a class="sub-a" href="sources/Development Application flow chart.pdf">Dev. Flow Chart</a></li>
+          <li><a class="sub-a" href="sources/Development Notification Process Info.pdf">Notification Info.</a></li>
+          <li><a class="sub-a" href="sources/Greens at Meadowlane Hearing Approval.pdf">City Hearing</a></li>
         </ul>
       </li>
 
-      <li><a href="https://www.change.org/p/spokane-city-mayor-and-city-council-join-us-in-protecting-latah-valley-4ac36f47-de50-4ea1-93d6-cb0b8de606c3?recruiter=1231760009&recruited_by_id=9fed1260-3861-11ec-ac34-c961eb1518f8&utm_source=share_petition&utm_campaign=share_petition&utm_term=fb0ab3296db548c5bbcadb2776bf9fb1&utm_medium=copylink&utm_content=cl_sharecopy_31220056_en-US%3A4" target="_blank">Sign Petition</a></li>
+      <li>
 
-      <li><a href="contact.html">Contact</a></li>
+
+        <a href="https://www.change.org/p/spokane-city-mayor-and-city-council-join-us-in-protecting-latah-valley-4ac36f47-de50-4ea1-93d6-cb0b8de606c3?recruiter=1231760009&recruited_by_id=9fed1260-3861-11ec-ac34-c961eb1518f8&utm_source=share_petition&utm_campaign=share_petition&utm_term=fb0ab3296db548c5bbcadb2776bf9fb1&utm_medium=copylink&utm_content=cl_sharecopy_31220056_en-US%3A4"
+          class="mobile-li" target="_blank">Sign Petition</a>
+
+
+      </li>
+
+
       <li><a class="facebook" href="https://www.facebook.com/ContactCALV" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
 
 
     </ul>
 
   </nav>
-<div class="box">
-  <div class="box-h1-appear">
-    <div class="box-h1">
-      <h1>CITIZEN ACTION FOR LATAH VALLEY <br> <button id="donate-btn">DONATE</button></h1>
+  <div class="box">
+    <div class="box-h1-appear">
+      <div class="box-h1">
+        <h1>CITIZEN ACTION FOR LATAH VALLEY <br> <button id="donate-btn">DONATE</button></h1>
+      </div>
     </div>
   </div>
 
+  <h1 class="about-header" id="aboutItem">About</h1>
+  <hr class="about-hr">
 
-  </div>
+  <p class="about-p">The Latah Valley is a unique, special, and attractive area of the city of Spokane
+    with a deep geologic and human history. The Latah Valley is home to people who deeply appreciate the attributes
+    and treasures of conveniences to downtown/airport balanced with a rural feel, active farming, and a vibrant
+     wildlife corridor home to moose, deer, coyote, osprey, bald eagle, and many other creatures. <br></br>
+     Despite what should be protected, preserved, and a wisely planned for evolution of this area, the Latah Valley is
+     under tremendous pressure by the City of Spokane and development interests whose pursuits are threatening not only
+     the integrity and specialness of this area but literally the lives of the people and wildlife who call the Latah Valley home. <br></br>
+     Latah Valley deserves to be protected!</p>
+    <h1 class="about-call">Call to Action</h1>
+    <hr class="about-hr-2">
+    <p class="about-p">The call-to-action is straightforward, Citizen Action for Latah Valley and its partners/supporters are
+      calling on the city council and mayor of Spokane to adopt a moratorium on major development in the Latah Valley until
+      comprehensive planning can be undertaken and funding sources identified for needed infrastructure.  Please call on the
+      mayor and city council to adopt a moratorium on major development in the Latah Valley!  </p>
+    <h1 class="about-call">Why is a moratorium needed for Latah Valley?</h1>
+    <hr class="about-hr-2">
+    <ol class="about-ol">
+      <li>Current roadway infrastructure can not handle traffic loads safely through Latah Valley</li>
+      <li>Near term projected roadway improvements will take time to implement and are not designed to be long term solutions</li>
+      <li>Latah Valley lacks adequate fire department services</li>
+      <li>Latah Valley lacks adequate police department services</li>
+      <li>Latah Valley has NO public transportation</li>
+      <li>Latah Valley has NO public library</li>
+      <li>Latah Valley has NO schools</li>
+      <li>Latah Valley has NO safe walking/biking routes connecting to other parts of the city</li>
+      <li>Latah Valley has NO community center</li>
+      <li>Proposed development will NOT be affordable (to most people in Spokane) or low income</li>
+    </ol>
 
 
 </body>
