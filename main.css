@@ -179,6 +179,14 @@ nav ul ul ul li{
   margin-left: 10%;
   margin-right: 10%;
 }
+.about-p-2{
+  font-family: 'Barlow Condensed', sans-serif;
+  margin-top: 16px;
+
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 .about-call{
 
   margin-bottom: 20px;
@@ -186,6 +194,12 @@ nav ul ul ul li{
   text-align: center;
     text-transform: uppercase;
     font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.about-call-2{
+  margin-bottom: 20px;
+  text-align: center;
+    font-size: 16px;
     font-family: 'Barlow Condensed', sans-serif;
 }
 .about-ol, .contact-ol{
@@ -322,7 +336,7 @@ nav ul ul ul li{
 	.box{
     padding-bottom: 500px;
   }
-  .about-p{
+  .about-p, .about-p-2{
     font-size: 20px;
   }
   .about-ol li, .contact-ol li{
